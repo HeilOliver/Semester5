@@ -28,24 +28,25 @@ public class RunMe {
 
         var input = new Input(bookTextFile);
 
-
-
         var simplePipe1 = new SimplePipe<>(input);
-        WordSeparator wordSeparator = new WordSeparator(simplePipe1);
-        SimplePipe<String[]> simplePipe2 = new SimplePipe<>((Readable<String[]>) wordSeparator);
-        FrequentWordProcessor frequentWordProcessor = new FrequentWordProcessor();
-        String[] frequentWords = frequentWordProcessor.getFrequentWords(wordTextFile, 104);
-        CircularShift circularShift = new CircularShift((Readable<String[]>) simplePipe2, frequentWords);
-        SimplePipe<String[]> simplePipe3 = new SimplePipe<>((Readable<String[]>) circularShift);
-        SortAlphabetically sortAlphabetically = new SortAlphabetically((Readable<String[]>) simplePipe3);
-        SimplePipe<String[]> simplePipe4 = new SimplePipe<>((Readable<String[]>) sortAlphabetically);
-        Output output = new Output(simplePipe4, outputTextFile);
+        var wordSeparator = new WordSeparator(simplePipe1);
+        var simplePipe2 = new SimplePipe<>((Readable<String[]>) wordSeparator);
+
+        var frequentWordProcessor = new FrequentWordProcessor();
+        var frequentWords = frequentWordProcessor.getFrequentWords(wordTextFile, 104);
+
+        var circularShift = new CircularShift((Readable<String[]>) simplePipe2, frequentWords);
+        var simplePipe3 = new SimplePipe<>((Readable<String[]>) circularShift);
+
+        var sortAlphabetically = new SortAlphabetically((Readable<String[]>) simplePipe3);
+        var simplePipe4 = new SimplePipe<>((Readable<String[]>) sortAlphabetically);
+
+        var output = new Output(simplePipe4, outputTextFile);
 
         //close input
-        if (input != null) {
-            output.run();
-            input.closeStream();
-        }
+        output.run();
+        input.closeStream();
+
 
     }
 }

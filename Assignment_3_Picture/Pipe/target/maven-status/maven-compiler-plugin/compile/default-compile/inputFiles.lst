@@ -1,0 +1,16 @@
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\filter\AbstractFilter.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\interfaces\Writeable.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\filter\DataTransformationFilter2.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\pipes\BufferedSyncPipe.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\pipes\RemotePipeProxy.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\filter\DataCompositionFilter.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\filter\Source.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\filter\DataTransformationFilter3.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\pipes\RemotePipe.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\interfaces\Readable.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\interfaces\IOable.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\pipes\SimplePipe.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\filter\DataTransformationFilter1.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\filter\ForwardingFilter.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\pipes\RemoteIOable.java
+C:\Users\OliverHeil\Documents\GitHub\Semester5\Assignment_3_Picture\Pipe\src\main\java\at\fhv\pmp\filter\Sink.java

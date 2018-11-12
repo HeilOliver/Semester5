@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            xmlns="http://javafx.com/javafx"
+            fx:controller="at.fhv.ohe.imageprocess.viewer.view.MainView"
+            prefHeight="600.0" prefWidth="1000.0">
+    <GridPane
+            AnchorPane.bottomAnchor="0"
+            AnchorPane.leftAnchor="0"
+            AnchorPane.rightAnchor="0"
+            AnchorPane.topAnchor="0">
+        <columnConstraints>
+            <ColumnConstraints minWidth="10.0" percentWidth="25"/>
+            <ColumnConstraints minWidth="10.0" percentWidth="25"/>
+            <ColumnConstraints minWidth="10.0" percentWidth="25"/>
+            <ColumnConstraints minWidth="10.0" percentWidth="25"/>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="50.0" vgrow="SOMETIMES"/>
+            <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="NEVER"/>
+        </rowConstraints>
+
+        <Slider fx:id="thresholdSlider" GridPane.columnIndex="0" GridPane.rowIndex="1" showTickLabels="true"
+                showTickMarks="true"/>
+        <TextField fx:id="inputPathBox" GridPane.columnIndex="1" GridPane.rowIndex="1" promptText="Enter Input Path"/>
+
+        <ComboBox fx:id="strategySelector" GridPane.columnIndex="2" GridPane.rowIndex="1" promptText="Select Strategy"/>
+
+        <Button fx:id="runBtn" GridPane.columnIndex="3" GridPane.rowIndex="1" onAction="#runBtnClick" text="Run"/>
+
+        <ListView fx:id="stepViewer" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="4"/>
+    </GridPane>
+</AnchorPane>

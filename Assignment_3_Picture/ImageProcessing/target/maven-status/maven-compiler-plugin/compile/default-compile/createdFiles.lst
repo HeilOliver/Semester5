@@ -1,0 +1,12 @@
+at\fhv\ohe\imageprocess\filter\InputPicture.class
+at\fhv\ohe\imageprocess\filter\SaveImage.class
+at\fhv\ohe\imageprocess\RunMe.class
+at\fhv\ohe\imageprocess\filter\CentroidFilter.class
+at\fhv\ohe\imageprocess\centroidfilter\CalcCentroidsFilter.class
+at\fhv\ohe\imageprocess\centroidfilter\Coordinate.class
+at\fhv\ohe\imageprocess\filter\ThresholdOperator.class
+at\fhv\ohe\imageprocess\filter\ShowImage.class
+at\fhv\ohe\imageprocess\filter\OutputResult.class
+at\fhv\ohe\imageprocess\filter\ReadExpectedCoordinates.class
+at\fhv\ohe\imageprocess\filter\RegionOfInterest.class
+at\fhv\ohe\imageprocess\filter\MedianFilter.class
